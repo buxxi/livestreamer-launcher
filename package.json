@@ -1,0 +1,31 @@
+{
+	"name": "livestreamer-launcher",
+	"title": "Livestreamer Launcher",
+	"id": "jid1-JgOLHKyUefgZ1w",
+	"description": "Adds a context-menu for sites supported by livestreamer to open that stream in a external player.",
+	"author": "Christofer Karlsson",
+	"license": "MPL 2.0",
+	"version": "1.0",
+
+	"preferences": [
+		{
+			"name": "shellPath",
+			"title": "Path to shell",
+			"description": "Select the path to the shell that can handle the output redirection to a file",
+			"type": "file"
+		},
+		{
+			"name": "livestreamerPath",
+			"title": "Path to livestreamer",
+			"description": "Select the path to the livestreamer executable",
+			"type": "file"
+		},
+		{
+			"name": "livestreamerArgs",
+			"title": "Livestreamer arguments",
+			"description": "Extra arguments to livestreamer when openening a stream",
+			"type": "string",
+			"value": "--player-passthrough=hls"
+		}
+	]
+}
