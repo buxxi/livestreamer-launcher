@@ -9,9 +9,9 @@
 
 	"preferences": [
 		{
-			"name": "shellPath",
-			"title": "Path to shell",
-			"description": "Select the path to the shell that can handle the output redirection to a file",
+			"name": "pythonPath",
+			"title": "Path to python",
+			"description": "Select the path to the python executable that should be used to run livestreamer",
 			"type": "file"
 		},
 		{
