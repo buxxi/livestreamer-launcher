@@ -7,7 +7,6 @@ A plugin for Firefox that utilizes Livestreamer (https://github.com/chrippa/live
 * Firefox
 * Python
 * Livestreamer
-* Bash in Linux (cmd.exe in Windows)
 
 ## Installation ##
 1. Generate the xpi-file with `cfx xpi` from the root-folder
