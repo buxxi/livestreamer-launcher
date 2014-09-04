@@ -1,11 +1,11 @@
 {
 	"name": "livestreamer-launcher",
 	"title": "Livestreamer Launcher",
-	"id": "jid1-JgOLHKyUefgZ1w",
+	"id": "livestreamer.launcher@buxxi.se",
 	"description": "Adds a context-menu for sites supported by livestreamer to open that stream in a external player.",
 	"author": "Christofer Karlsson",
 	"license": "MPL 2.0",
-	"version": "1.0",
+	"version": "1.0.1",
 
 	"preferences": [
 		{
@@ -26,6 +26,13 @@
 			"description": "Extra arguments to livestreamer when openening a stream",
 			"type": "string",
 			"value": "--player-passthrough=hls"
+		},
+		{
+			"name": "quickOpenQuality",
+			"title": "Preferred qualities",
+			"description": "Use these qualities (from left to right) when using the quick open",
+			"type": "string",
+			"value": "best, 720p"
 		}
 	]
 }
