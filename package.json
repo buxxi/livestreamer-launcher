@@ -6,6 +6,7 @@
 	"author": "Christofer Karlsson",
 	"license": "MPL 2.0",
 	"version": "1.0.1",
+	"icon": "data/icon-64.png",
 
 	"preferences": [
 		{
