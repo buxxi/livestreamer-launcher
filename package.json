@@ -5,7 +5,7 @@
 	"description": "Adds a context-menu for sites supported by livestreamer to open that stream in a external player.",
 	"author": "Christofer Karlsson",
 	"license": "MPL 2.0",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"icon": "data/icon-64.png",
 	"permissions": { 
 		"private-browsing": true
