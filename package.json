@@ -2,10 +2,11 @@
 	"name": "livestreamer-launcher",
 	"title": "Livestreamer Launcher",
 	"id": "livestreamer.launcher@buxxi.se",
-	"description": "Adds a context-menu for sites supported by livestreamer to open that stream in a external player.",
+	"description": "Adds a toolbar button that uses livestreamer to open the current stream in a external player.",
 	"author": "Christofer Karlsson",
 	"license": "MPL 2.0",
 	"version": "1.0.2",
+	"main" : "lib/main.js",
 	"icon": "data/icon-64.png",
 	"permissions": { 
 		"private-browsing": true

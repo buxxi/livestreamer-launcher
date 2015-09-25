@@ -9,11 +9,11 @@ A plugin for Firefox that utilizes Livestreamer (https://github.com/chrippa/live
 * Livestreamer
 
 ## Installation ##
-1. Generate the xpi-file with `cfx xpi` from the root-folder
+1. Generate the xpi-file with `jpm xpi` from the root-folder
 2. Open the xpi-file in Firefox from File->Open file to install the plugin
 3. Go to the preference page for the plugin to verify that all paths has been set correctly
 
 ## Usage ##
-On a page which livestreamer supports, right-click to bring up the context-menu, there you should see an entry named "Livestreamer".
-When opening the context-menu the plugin loads all the available qualities and adds them to that menu entry.
-Click an entry to open it in an external player.
+Configure in settings the paths to Livestreamer and Python and your preferred quality.
+On a page which Livestreamer supports, click on the icon in the toolbar to open the stream with Livestreamer.
+The stream on the page will be replaced with a message, when closing the external player the stream will be restored.
