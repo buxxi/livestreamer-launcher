@@ -8,6 +8,7 @@
 	"version": "1.0.2",
 	"main" : "lib/main.js",
 	"icon": "resource://livestreamer-dot-launcher-at-buxxi-dot-se/data/icon-64.png",
+	"homepage" : "https://github.com/buxxi/livestreamer-launcher",
 	"permissions": { 
 		"private-browsing": true
 	},
