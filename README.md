@@ -2,6 +2,9 @@
 
 A plugin for Firefox that utilizes Livestreamer (https://github.com/chrippa/livestreamer) to open streams in an external player direct from the streams page.
 
+This project is dead, at the time of creating the plugin there wasn't other options, now there's a much better one here https://github.com/IsSuEat/open-livestreamer-firefox-addon
+And since Firefox 43 it requires you to sign the plugin which made me switch to the plugin above since I'm lazy.
+
 ## Requirements ##
 * Mozilla Add-On SDK (for building manually)
 * Firefox
